@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(./images/hero_1.jpeg); 
+    
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.elements{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header1{
+    height: 70px;
+    margin-top: 40px;
+    color: #fff;
+    font-style: 'Playfair';
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.table{
+    margin-top: 10px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    color: rgba(255, 255, 255, 0.1);
+    font-style: 'Playfair';
+    font-size: 18px;
+    
+}
+
+.table a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.table a:hover{
+    color: #E52B50;
+}
+
+p{
+    color: #fff;
+    font-style: 'Playfair';
+    margin-top: 120px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background: black url(./images/broken_noise.png);
+    
+}
+
+.box1{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 img{
+    width: 45vw;
+}
+
+.img1{
+    width: 49%;
+    margin-top: 150px;
+}
+
+.img1 img{
+    width: 90%;
+}
+
+.about1{
+    width: 35%;
+    margin-top: 150px;
+    margin-right: 100px;
+
+}
+.about1 p{
+    font-size: 18px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: 30px;
+    text-align: left;
+}
+
+.about1-header{
+    color: #fff;
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+}
+
+.about1 button{
+    color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ea272d;
+    width: 150px;
+    height: 40px;
+    background: black url(./images/broken_noise.png);
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.about1 button:hover{
+    background: #ea272d;
+}
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    background: black url(./images/broken_noise.png);
+}
+
+.box2{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)) ,url(./images/hero_1.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 20px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 p{
+    font-size: 20px;
+    margin: 0;
+    width: 800px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 30px;
+}
+
+.box2 h3{
+    color: #fff;
+    font-family: "Satisfy", cursive;
+    font-size: 35px;
+}
+
+.box2 button{
+    color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #ea272d;
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.box2 button:hover{
+    background: #ea272d;
+}
+
+.contatiner4{
+    width: 100%;
+    height: 60vh;
+    background: black url(./images/broken_noise.png);
+    display: flex;
+    justify-content: center;
+}
+.part-1{
+    width: 25%;
+    height: 50vh;
+}
+.part-1 h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+
+}
+.part-1 p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Cormorant Garamond", Georgia, serif;
+    text-align: left;
+}
+.part-2{
+    width: 15%;
+    height: 50vh;
+    line-height: 30px;
+    margin-left: 150px;
+}
+.part-2 h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 15px;
+}
+.part-2 li{
+    list-style: none;
+}
+
+.part-2 li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.part-2 li a:hover{
+    text-decoration: underline;
+    color: #ea272d;
+}
+
+.about-copy{
+    font-size: 10px;
+}
+
+.part-3{
+    width: 25%;
+    height: 50vh;
+    line-height: 30px;
+}
+.part-3 h4{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 15px
+}
+
+.part-3 li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.part-3 li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.part-3 li a:hover{
+    text-decoration: underline;
+    color: #ea272d;
+}
+
+@media screen and (max-width:768px){
+    .table{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .elements p{
+        margin-top: 50px;
+    }
+
+    .box1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1{
+        height: 70vh;
+        margin-top: 55px;
+        width: 90%;
+    }
+    .img1 img{
+        width: 100%;
+    }
+    .about1{
+        margin-top: 70px;
+        width: 90%;
+        margin-right: 0px;
+    }
+    .box2{
+        background: black;
+    }
+    .box2 p{
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .box2 button{
+        margin-top: 10px;
+    }
+    .container3{
+        background: #000000;
+        height: 70vh;
+    }
+    .contatiner4{
+        flex-direction: column;
+        align-items: start;
+        height: 90vh;
+    }
+    .contatiner4 .part-2{
+        margin-left: 0;
+        margin-bottom: 0px;
+        height: 25vh;
+        margin-left: 20px;
+    }
+    .contatiner4 .part-1{
+        margin-top: 30px;
+        height: 20vh;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .contatiner4 .part-3{
+        margin-left: 20px;
+    }
+}
